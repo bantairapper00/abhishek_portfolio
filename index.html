@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>My-portfolio</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <input type="checkbox" id="nav-toggle">
+        <div class="nav-width">
+            <div class="logo">
+                <img src="favicon.gif" alt="logo">
+                <img src="favicon1.gif" alt="logo">
+                <a href="#">Port<span>folio.</span></a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <label for="nav-toggle" class="icon-burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="content-width">
+            <div class="home-content">
+                <img src="./my-image.png" alt="">
+                <div>
+                    <div class="text1">Hello, I am</div>
+                    <div class="text2">ABHISHEK KUMAR</div>
+                    <div class="text3">And i'm a <Span class="typing"></Span>
+                    </div>
+                </div>
+                <div id="large-header" class="large-header">
+                    <canvas id="demo-canvas"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="about" id="about">
+        <div class="about-width">
+            <div class="about-content">
+                <div class="content-left">
+                    <img src="photo.jpg" alt="image">
+                </div>
+                <div class="content-right">
+                    <h1 class="title">About me</h1>
+                    <div class="text">I'm Abhishek and i'm a <span class="typing1"></span></div>
+                    <p> I was born and brought up Bihar. I am currently pursuing my B.Tech in Civil from Visvesvaraya
+                        National Institute of
+                        Technology, Nagpur. My Current CGPA out of 10 is 8.28.
+                        My Civil degree is giving a range of skills that I feel are crucial for my career and life.
+                        Despite limited exposure, I have understood that hard work and determination can make anything
+                        possible. I am ready to do that.<br>
+                        To add, I am also skilled in C++, C, Python, HTML, CSS, Javascript, React.Js, AutoCAD, REVIT and
+                        Staad Pro. <br>
+                        Lastly, I am a quick learner and believe in learning from my past mistakes. This is a virtue as
+                        it can take me ahead in both my professional and personal life.
+                    </p>
+                    <Button class="btn">Download CV</Button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="skills" id="skills">
+        <h1 class="title">My skills</h1>
+        <div class="skills-width">
+            <div class="skills-content">
+                <div class="lag-skills">
+                    <div class="skill-name">
+                        <h1>Language Skills</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. lore, lorem lorem</p>
+                    </div>
+                    <div class="piechart-holder">
+                        <div class="piechart">
+                            <div class="my-chart">
+                                <span class="chart">
+                                    <span class="percent">80%</span>
+                                    <canvas id="C++" height="150px" width="150"></canvas></span>
+                            </div>
+                            <h4>C++</h4>
+                        </div>
+                        <div class="piechart">
+                            <div class="my-chart">
+                                <span class="chart">
+                                    <span class="percent">75%</span>
+                                    <canvas id="JavaScript" height="187" width="150"></canvas></span>
+                            </div>
+                            <h4>JavaScript</h4>
+                        </div>
+                        <div class="piechart">
+                            <div class="my-chart">
+                                <span class="chart">
+                                    <span class="percent">60%</span>
+                                    <canvas id="Python" height="187" width="150"></canvas></span>
+                            </div>
+                            <h4>Python</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-content">
+                <div class="Dev-skills">
+                    <div class="skill-name">
+                        <h1>Development Skills</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. lore, lorem lorem</p>
+                    </div>
+                    <div class="bar-holder">
+                        <div class="bars">
+                            <div class="info">
+                                <span>HTML</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="line html"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>CSS</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="line css"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Tailwind</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="line tailwind"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>JavaScript</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="line js"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>React</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="line react"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-content">
+                <div class="soft-skills">
+                    <div class="skill-name">
+                        <h1>Software Skills</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. lore, lorem lorem</p>
+                    </div>
+                    <div class="piechart-holder">
+                        <div class="piechart">
+                            <div class="my-chart">
+                                <span class="chart">
+                                    <span class="percent">75%</span>
+                                    <canvas id="autocad" height="187" width="150"></canvas></span>
+                            </div>
+                            <h4>AutoCAD</h4>
+                        </div>
+                        <div class="piechart">
+                            <div class="my-chart">
+                                <span class="chart">
+                                    <span class="percent">60%</span>
+                                    <canvas id="revit" height="187" width="150"></canvas></span>
+                            </div>
+                            <h4>Revit</h4>
+                        </div>
+                        <div class="piechart">
+                            <div class="my-chart">
+                                <span class="chart">
+                                    <span class="percent">80%</span>
+                                    <canvas id="stadpro" height="187" width="150"></canvas></span>
+                            </div>
+                            <h4>STAAD Pro</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-content">
+                <div class="other-skills">
+                    <div class="skill-name">
+                        <h1>Other Skills</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. lore, lorem lorem</p>
+                    </div>
+                    <div class="main-box">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="slider-box">
+                                        <div class="img-box">
+                                            <img src="r.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="slider-box">
+                                        <div class="img-box">
+                                            <img src="sql-server.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="slider-box">
+                                        <div class="img-box">
+                                            <img src="bootstrap.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="slider-box">
+                                        <div class="img-box">
+                                            <img src="figma.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="slider-box">
+                                        <div class="img-box">
+                                            <img src="adobe-photoshop.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="slider-box">
+                                        <div class="img-box">
+                                            <img src="git.png" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="slider-box">
+
+                                        <div class="img-box">
+                                            <img src="office.png" alt="">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="project-width">
+            <h1 class="title">Projects</h1>
+            <div class="project-area" data-aos="fade-up">
+                <div class="project-content">
+                    <div class="text">
+                        <h2>My Library</h2>
+                        <p>A book tracking website though which a user can keep record of books in his
+                            library. A responsive front end using HTML, CSS and Vanilla JavaScript. User can add
+                            books using name, author and type and also able to search either by name,
+                            author or type. Integrated features like Search, delete, add etc.</p>
+                        <div class="button">
+                            <a href="https://github.com/bantairapper00/mylibrary.github.io" target="_blank"><button
+                                    class="btn1">GITHUB</button></a>
+                            <a href="https://bantairapper00.github.io/mylibrary.github.io/" target="_blank"><button
+                                    class="btn2">Demo ></button></a>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="my-library.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="tag">
+                    <p>Tech tags: <span>HTML</span><span>CSS</span><span>JavaScript</span></p>
+                </div>
+            </div>
+            <hr style="width: 80%; margin: auto;">
+            <div class="project-area" data-aos="fade-up">
+                <div class="project-content">
+                    <div class="text">
+                        <h2>WEBMAG</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel doloremque deleniti illum,
+                            molestias numquam quam labore voluptates consequatur quo explicabo esse debitis facilis
+                            excepturi sequi, est exercitationem ad tempora assumenda.</p>
+                        <div class="button">
+                            <button class="btn1">GITHUB</button>
+                            <button class="btn2">Demo ></button>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="webmag.png" alt="Image">
+                    </div>
+                </div>
+                <div class="tag">
+                    <p>Tech tags: <span>HTML</span><span>CSS</span><span>JavaScript</span></p>
+                </div>
+            </div>
+            <hr style="width: 80%; margin: auto;">
+            <div class="project-area" data-aos="fade-up">
+                <div class="project-content">
+                    <div class="text">
+                        <h2>Magic Notes</h2>
+                        <p>A note taking website using HTML, CSS, Bootstrap and Vanilla JavaScript. Allow user
+                            to save important notes with features like search, edit, delete, clear all, Highlight etc.
+                            Uses local storage to save data so that saved notes will exist even after you reload your
+                            page.</p>
+                        <div class="button">
+                            <a href="https://github.com/bantairapper00/magic_notes.github.io" target="_blank"><button
+                                    class="btn1">GITHUB</button></a>
+                            <a href="https://bantairapper00.github.io/magic_notes.github.io/" target="_blank"><button
+                                    class="btn2">Demo ></button></a>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="magic-notes.png" alt="Image">
+                    </div>
+                </div>
+                <div class="tag">
+                    <p>Tech tags: <span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JavaScript</span></p>
+                </div>
+            </div>
+            <hr style="width: 80%; margin: auto;">
+            <div class="project-area" data-aos="fade-up">
+                <div class="project-content">
+                    <div class="text">
+                        <h2>TextUtils</h2>
+                        <p>A formatting tool for handling text. Front-end with HTML, CSS,
+                            Bootstrap, JavaScript and React. Integrated features like Dark mode, Remove extra
+                            spacing, Count number of words and characters, Convert Lowercase/uppercase, Copy/Clear text
+                            and preview section. Used React functional component and React Router Dom to implement
+                            these functions and nesting.</p>
+                        <div class="button">
+                            <a href="https://github.com/bantairapper00/TextUtils" target="_blank"><button
+                                    class="btn1">GITHUB</button></a>
+                            <a href="https://bantairapper00.github.io/TextUtils/" target="_blank"><button
+                                    class="btn2">Demo
+                                    ></button></a>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="textutils.png" alt="Image">
+                    </div>
+                </div>
+                <div class="tag">
+                    <p>Tech tags:
+                        <span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JavaScript</span><span>React</span>
+                    </p>
+                </div>
+            </div>
+            <hr style="width: 80%; margin: auto;">
+            <div class="project-area">
+                <div class="project-content" data-aos="fade-up">
+                    <div class="text">
+                        <h2>Project Title</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel doloremque deleniti illum,
+                            molestias numquam quam labore voluptates consequatur quo explicabo esse debitis facilis
+                            excepturi sequi, est exercitationem ad tempora assumenda.</p>
+                        <div class="button">
+                            <button class="btn1">GITHUB</button>
+                            <button class="btn2">Demo ></button>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="my-library.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="tag">
+                    <p>Tech tags: </span><span>HTML</span><span>CSS</span><span>JavaScript</span></p>
+                </div>
+            </div>
+            <hr style="width: 80%; margin: auto;">
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime corrupti blanditiis odit
+                        accusantium quidem sapiente voluptas dolores quis, dolorem quo, facere modi iure, deserunt ipsum
+                        et corporis iusto nesciunt ducimus!</p>
+                    <div class="icon">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Abhishek Kumar</div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Muzaffarpur, Bihar</div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">abhikr1708@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="">
+                        <div class="field">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Describe project.." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>Created By <span>Abhishek</span> | <span class="far fa-copyright"></span> 2020 All rights reserved</span>
+    </footer>
+    <script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js"></script>
+    <script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js"></script>
+    <script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            delay: 0,
+            duration: 800,
+            once: true,
+            mirror: true,
+            anchorPlacement: 'center-bottom',
+
+        });
+    </script>
+</body>
+
+</html>
